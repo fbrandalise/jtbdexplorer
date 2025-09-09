@@ -15,4 +15,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/jtbdexplorer/' // Replace with your GitHub repo name
 }));
+
