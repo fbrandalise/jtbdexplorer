@@ -118,7 +118,7 @@ const Index = () => {
                 </Link>
               </Button>
               <Button variant="outline" asChild className="gap-2">
-                <Link to="/journey">
+                <Link to="/admin">
                   <MapPin className="h-4 w-4" />
                   Admin
                 </Link>
@@ -254,3 +254,4 @@ const Index = () => {
 
 
 export default Index;
+
