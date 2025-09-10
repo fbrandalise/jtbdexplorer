@@ -117,6 +117,12 @@ const Index = () => {
                   Jornada
                 </Link>
               </Button>
+              <Button variant="outline" asChild className="gap-2">
+                <Link to="/journey">
+                  <MapPin className="h-4 w-4" />
+                  Admin
+                </Link>
+              </Button>
             </div>
           </div>
           
@@ -245,5 +251,6 @@ const Index = () => {
     
   );
 };
+
 
 export default Index;
